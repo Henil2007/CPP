@@ -36,7 +36,8 @@ void addEmployee(struct Employee *e, int *count)
     cin >> e[*count].salary;
     *(count)++;
     cout << "Employee Added sucessfully";
-}
+} // End of Add Function
+
 void updateEmployee(struct Employee *e, int *count)
 {
     int id;
@@ -62,7 +63,8 @@ void updateEmployee(struct Employee *e, int *count)
     {
         cout << "Employee not found";
     }
-}
+} // End of Update function
+
 void searchEmployee(struct Employee *e, int *count)
 {
     int id, found = 0;
@@ -87,10 +89,13 @@ void searchEmployee(struct Employee *e, int *count)
     {
         cout << "Employee not found";
     }
-}
+} // End of Search function
+
 void deleteEmployee(struct Employee *e, int *count)
 {
-}
+
+} // End of delete function
+
 void displayEmployee(struct Employee *e, int *count)
 {
     int i, found = 0;
@@ -103,7 +108,8 @@ void displayEmployee(struct Employee *e, int *count)
              << e[i].id << "\t" << e[i].name << "\t" << e[i].salary;
         // found = 1;
     }
-}
+} // End of Display function
+
 int main()
 {
     int choice;
@@ -145,4 +151,4 @@ int main()
         }
     }
     return 0;
-}
+} // End of main()
