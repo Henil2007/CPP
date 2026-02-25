@@ -57,8 +57,8 @@ void updateEmployee(struct Employee *e, int *count)
 
             found = 1;
             break;
-        }
-    }
+        } // End of If
+    } // End of For
     if (found == 0)
     {
         cout << "Employee not found";
