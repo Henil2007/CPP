@@ -93,7 +93,23 @@ void searchEmployee(struct Employee *e, int *count)
 
 void deleteEmployee(struct Employee *e, int *count)
 {
-
+    int  id,found=0;
+    cout<<"enter the emp id to delete : ";
+    cin>>id; 
+    for(int i=0; i<*count; i++)
+    {
+        if(e[i].id ==id)
+        {      // shifting the elements to left
+                for(int j =i; j<*count-1; j++)
+                {
+                    e[j] = e[j+1];
+                }
+                *(count)--;
+                found =1;
+                cout<<"emp deleted"<<endl;
+                break;
+        } 
+    }
 } // End of delete function
 
 void displayEmployee(struct Employee *e, int *count)
