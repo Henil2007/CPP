@@ -1,0 +1,53 @@
+class : blue print of object.
+object : instance of class.
+
+ex : 1 
+
+fruits : 
+    apple banana orange chiku mango 
+
+========================================================================
+
+access specifier : 
+1. public  : accessible from anywhere
+2. private : within class only  
+3. protected : within class and sub-class  (inheritance)
+
+========================================================================
+
+4 pillar : 
+
+1. inheritance : 
+    a.single b.multiple c.multi level d.hiechical e.hybrid  ==> virtual  inheritance 
+2. encapsulation :
+    a.get method b.set method 
+3. polymorphism :
+    a.method overloading ==> compile time polymorphism
+    b.method overriding  ==> run time polymorphism
+4. abstraction : 
+    a.abtract method 
+    b.abstract class
+
+=============================================================================
+
+constructor  : automatically called when object is created
+
+1. no return type. 
+2. class name =constructor name 
+
+type  : 
+1. default constructor
+2. parameterized constructor
+3. non parameterized constructor
+4. copy constructor
+5. constructor overloading
+
+================================================================
+
+inheritance  : to  inherit properites and  methods from  parents class .  
+
+1. single 
+2. multiple
+3. multi level
+4. hiechical
+5. hybrid  ==> virtual inheritance ==> diamond problem
